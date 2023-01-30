@@ -277,7 +277,7 @@ li a:hover {
     }
 
     footer .logo {
-        margin-bottom: 32px;
+        margin-bottom: 60px;
     }
 
     footer .links {
@@ -301,8 +301,8 @@ li a:hover {
     .top {
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .bottom {
@@ -310,7 +310,7 @@ li a:hover {
         align-items: flex-start;
         height: auto;
         gap: 16px;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
