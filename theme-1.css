@@ -105,6 +105,10 @@ footer {
     margin: 0;
 }
 
+footer .logo img {
+    filter: invert(100%);
+}
+
 .top {
     position: relative;
     display: flex;
@@ -232,7 +236,6 @@ footer {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        font-size: 16px;
         top: 80px;
         left: 0;
         width: 100%;
@@ -240,6 +243,14 @@ footer {
         background: #fff;
         transform: translateX(100%);
         transition: all .3s ease;
+    }
+
+    .control a {
+        font-size: 16px;
+    }
+
+    header {
+        margin-top: 80px;
     }
 
     footer .logo {
