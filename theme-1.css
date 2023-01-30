@@ -52,6 +52,10 @@ nav:after {
     background: #fff;
 }
 
+.menu {
+    display: none;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -204,13 +208,37 @@ footer {
         padding: 0 5%;
     }
 
+    .open .menu:after {
+        content: "\e59b";
+    }
+
+    .open .control {
+        transform: translateX(0);
+    }
+
     .menu {
+        font-family: "Font Awesome 6 Pro";
         display: flex;
         font-size: 30px;
+        cursor: pointer;
+    }
+
+    .menu:after {
+        content: "\f0c9";
     }
 
     .control {
-        display: none;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 80px);
+        background: #fff;
+        transform: translateX(100%);
+        transition: all .3s ease;
     }
 
     footer .logo {

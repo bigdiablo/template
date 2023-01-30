@@ -25,13 +25,12 @@
 			<img src="logo-blk.svg">
 		</a>
 		<div class="control">
-			<a href="">Something</a>
-			<a href="">Something</a>
-			<a href="">Something</a>
+			<a href="">About</a>
+			<a href="">Team</a>
+			<a href="">Careers</a>
+			<a href="">Services</a>
 		</div>
-		<div class="menu">
-			<i class="fa-regular fa-bars"></i>
-		</div>
+		<div class="menu" onclick="menu();"></div>
 	</nav>
 	<header>
 
@@ -116,4 +115,10 @@
 		</div>
 	</footer>
 </body>
+<script type="text/javascript">
+	function menu() {
+	    var nav = document.getElementsByTagName("nav")[0];
+	    nav.classList.toggle("open");
+	}
+</script>
 </html>
