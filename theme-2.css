@@ -413,6 +413,26 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 
+
+    .good {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .show,
+    .learn {
+        width: 100%;
+    }
+
+    .show img {
+        width: 100%;
+    }
+
+    .learn p {
+        font-size: 14px;
+    }
+
     section {
         width: 100%;
     }
