@@ -158,6 +158,54 @@ section {
     height: auto;
 }
 
+.price {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.price label {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.price p {
+    width: 50%;
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.recall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.here {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #fff;
+    gap: 20px;
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.here p {
+    color: #333;
+}
+
 .services {
     display: flex;
     align-items: flex-start;
