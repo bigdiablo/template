@@ -110,10 +110,14 @@ header {
 
 .info label {
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 20px;
+}
+
+.info label span {
+    color: #54fff5;
 }
 
 .info p {
@@ -146,8 +150,10 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 100px;
     width: 100%;
     height: auto;
+    padding: 100px 0;
 }
 
 section {
@@ -168,10 +174,14 @@ section {
 
 .price label {
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 20px;
+}
+
+.price label span {
+    color: #54fff5;
 }
 
 .price p {
@@ -203,7 +213,11 @@ section {
 }
 
 .here p {
-    color: #333;
+    margin: 0;
+    color: #161b22;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .services {
@@ -211,15 +225,44 @@ section {
     align-items: flex-start;
     justify-content: center;
     width: 100%;
+    gap: 40px;
     height: auto;
 }
 
 .skill {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    width: 25%;
     color: #fff;
+}
+
+.skill img {
+    border-radius: 0 50% 0 0;
+    margin-bottom: 20px;
+}
+
+.skill label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.skill p {
+    margin: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.skill a {
+    outline: 0;
+    color: #54fff5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 footer {

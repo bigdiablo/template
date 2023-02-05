@@ -99,10 +99,8 @@ header {
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 500px;
-    background: pink;
+    height: auto;
 }
-
 
 .info {
     display: flex;
@@ -177,15 +175,18 @@ section {
 }
 
 .preview {
+    position: relative;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    flex-direction: column;
     float: left;
     width: 50%;
-    height: 380px;
+    height: auto;
+}
+
+.stick {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     color: #fff;
-    background: lightseagreen;
 }
 
 .preview label {
